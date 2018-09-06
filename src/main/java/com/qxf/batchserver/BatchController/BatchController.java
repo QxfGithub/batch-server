@@ -8,8 +8,10 @@ public class BatchController {
 
     @Scheduled(cron = "${batchTime}")
     public void batct(){
+
         System.out.println("Start:");
         System.out.println("==========================================");
         System.out.println(":End");
+
     }
 }
